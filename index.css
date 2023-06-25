@@ -3,6 +3,7 @@
 }
 body{
     margin: 0;
+    background-color: #fff;
 }
 h1,h2,h3,h4,h5,p{
     margin: 0;
@@ -177,9 +178,11 @@ nav .registration{
     font-size: 25px;
     font-family: Gilroy-Bold;
     line-height: 48px;
+    margin-right: 124px;
 }
 .featuresSectionTopRight{
     display: flex;
+    flex-grow: 1;
     padding: 0px 4px;
     justify-content: center;
     align-items: flex-start;
@@ -283,6 +286,11 @@ nav .registration{
 
 
             /* PRICING SECTION */
+
+ #pricingSection{
+    padding-bottom: 112px;
+
+ }
 .pricingSectionHead{
    padding: 42px 176px 68px 176px;
 }
@@ -452,6 +460,8 @@ nav .registration{
     padding-top: 83.5px;
     padding-bottom: 84.5px;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+    display: flex;
+    justify-content: center;
 }
 .trimURLForm p{
     color: #4991FF;
@@ -459,6 +469,7 @@ nav .registration{
     font-family: Gilroy-Medium;
     line-height: 20px;
     width: 373px;
+    align-items: center;
 }
 .trimURL{
     display: flex;
@@ -476,8 +487,125 @@ nav .registration{
     border: none;
     outline: none;
 }
+.pasteURLHere{
+    display: flex;
+    width: 392px;
+    height: 55px;
+    padding: 8px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--primary-100, #3284FF);
+}
+.chooseDomain{
+    display: flex;
+    width: 202px;
+    height: 48px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--primary-100, #3284FF);
+}
+.typeAliasHere{
+    display: flex;
+    width: 178px;
+    height: 48px;
+    padding: 8px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #3284FF;
+}
+.termsOfServices{
+    width: 373px;
+    flex-shrink: 0;
+    color: #4991FF;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+    line-height: 20px;
+}
+.domainAlias{
+    display: flex;
+    gap: 10px;
+}
 
                 /* FAQs SECTION */
+
+#faqsSection{
+
+    padding: 43px 324px 115px 324px;
+}
+
+.faqHederContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.faqHederContainer h2{
+    font-family: 'Gilroy-Bold';
+    font-size: 40px;
+    line-height: 32px;
+    color: #141414;
+    padding-left: 16px;
+}
+
+.faqList{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.faqCheck{
+    display: none;
+}
+
+.faqCheckLabel{
+    cursor: pointer;
+}
+
+.faqListItemHeader{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 32px;
+    color: #141414;
+
+}
+
+.faqAnswer{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 32px;
+    color: #141414;
+}
+
+
+.faqListItem{
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 16px;
+    padding-top: 32px;
+}
+
+.faqCheck:checked~.faqListItemHeader .faqOpenImage{
+    display: none;
+}
+
+.faqCheck:not(:checked)~.faqListItemHeader .faqCloseImage{
+    display: none;
+}
+
+.faqCheck:not(:checked)~.faqAnswer{
+    display: none;
+}
 
                 /* GET STARTED SECTION */
 .getStartedSection{
@@ -486,6 +614,9 @@ nav .registration{
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 .getStartedSection h2{
     display: flex;

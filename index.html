@@ -210,25 +210,63 @@
 
         <section id="analyticsSection">
                 <form class="trimURLForm">
-                    <input type="url" placeholder="Paste URL here..." required>
-                    <br><br>
-                    <select class="chooseDomain">
-                        <option value="sel">Choose Domain</option>
-                        <option value="mal">Github</option>
-                        <option value="fem">SSH</option>
-                        <option value="undef">HTTPS</option>
-                    </select>
-                    <input type="url" placeholder="Type Alias here" required>
-            <br><br>
-            <button class="trimURL">Trim URL</button>
-            <p>
+                    <input class="pasteURLHere" type="url" placeholder="Paste URL here..." required>
+                    <div class="domainAlias">
+                        <select class="chooseDomain">
+                            <option value="sel">Choose Domain</option>
+                            <option value="mal">Github</option>
+                            <option value="fem">SSH</option>
+                            <option value="undef">HTTPS</option>
+                        </select>
+                        <input class="typeAliasHere" type="url" placeholder="Type Alias here" required>
+                    </div>
+            <button class="trimURL">Trim URL <img src="magicWand.png"></button>
+            <p class="termsOfServices">
                 By clicking TrimURL, I agree to the <strong>Terms of Service,</strong><br>
                  <strong>Privacy Policy</strong> and Use of Cookies.
             </p>
                 </form>
         </section>
 
-        <section id="faqsSection"></section>
+        <section id="faqsSection">
+            <div class="faqHederContainer">
+                <img src="Linewhy.svg">
+                <h2>FAQs</h2>
+            </div>
+
+            <ul class="faqList">
+                <li class="faqListItem">
+                    <input id="faqCheck1" class="faqCheck" type="checkbox">
+                    <div class="faqListItemHeader">
+                        <p class="faqQuestion">How does URl shortening work?</p>
+                        <label class="faqCheckLabel" for="faqCheck1">
+                            <img src="plusIcon.png" alt="plus icon" class="faqOpenImage">
+                            <img src="minusIcon.png" alt="minus icon" class="faqCloseImage">
+                        </label>
+                    </div>
+
+                    <p class="faqAnswer">
+                        URL shortening works by taking a long URL and creating a shorter, condensed version that redirects to the original URL. When a user clicks on the shortened link, they are redirected to the intended destination.
+                    </p>
+                </li>
+
+                <li class="faqListItem">
+                    <input id="faqCheck2" class="faqCheck" type="checkbox">
+                    <div class="faqListItemHeader">
+                        <p class="faqQuestion">Is it necessary to create an account to use the URL shortening service?</p>
+                        <label class="faqCheckLabel" for="faqCheck2">
+                            <img src="plusIcon.png" alt="plus icon" class="faqOpenImage">
+                            <img src="minusIcon.png" alt="minus icon" class="faqCloseImage">
+                        </label>
+                    </div>
+
+                    <p class="faqAnswer">
+                        URL shortening works by taking a long URL and creating a shorter, condensed version that redirects to the original URL. When a user clicks on the shortened link, they are redirected to the intended destination.
+                    </p>
+                </li>
+            </ul>
+
+        </section>
         
         <section id="getStartedSection">
             <div class="getStartedSection">
