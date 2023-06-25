@@ -1,0 +1,102 @@
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+header li{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+
+.registration li{
+    color:#0065FE;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+nav .current{
+    color:#0065FE;
+    font-weight: bold;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.registration{
+    display: flex;
+    align-items: center;
+}
+ 
+
+/* header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 140px;
+} */
+/* *{
+    font-family: 'Gilroy';
+    margin: 0;
+}
+body{
+    background: #eee;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: block;
+    padding: 10px;
+}
+@media screen and (min-width: 768px){
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    flex: 5 5 5 5 5 0;
+}
+
+
+
+
+
+} */
+ 
+/* .logo{
+    height: 24px;
+    width: 123px;
+}
+.navbar{
+    height: 22px;
+    width: auto;
+}
+.registration{
+    height: 24px;
+    width: 50px;
+} */
