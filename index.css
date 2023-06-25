@@ -5,8 +5,13 @@ body{
     margin: 0;
     background-color: #fff;
 }
-h1,h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5, h6,ul,p{
     margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
 }
 
         /* HEADER SECTION */
@@ -581,6 +586,10 @@ nav .registration{
 
 }
 
+.faqHederContainer p{
+    padding-right: 29px;
+}
+
 .faqAnswer{
     font-family: 'Gilroy-Medium';
     font-size: 16px;
@@ -644,3 +653,58 @@ nav .registration{
     outline: none;
 }
                 /* FOOTER SECTION */
+
+#footerSection{
+    padding: 103px 120px 70px 120px;
+}
+
+.footerLogo{
+    margin-bottom: 41px;
+}
+
+.footerContacts *:not(:last-of-type){
+    margin-right: 26px;
+}
+
+.footerTop{
+    display: flex;
+    gap: 71px;
+    margin-bottom: 23px;
+}
+
+.footerLinkHeader{
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.footerLinks li{
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #112232;
+}
+
+.footerLinksTop{
+    gap: 73px;
+    display: flex;
+}
+
+
+.footerLinksBottom{
+    gap: 73px;
+    display: flex;
+}
+
+
+.footerBottom{
+    text-align: right;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 20px;
+    color: #112232;
+
+}
